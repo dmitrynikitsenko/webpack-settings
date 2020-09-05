@@ -1,0 +1,42 @@
+{
+  "name": "webpack-settings",
+  "version": "1.0.0",
+  "description": "Universal settings for webpack for projects",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server",
+    "build": "cross-env NODE_ENV=production webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmitrynikitsenko/webpack-setting.git"
+  },
+  "keywords": [
+    "webpack",
+    "js",
+    "web"
+  ],
+  "author": "Dmitry Nikitsenko <ddrwarf@yandex.ru>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmitrynikitsenko/webpack-setting/issues"
+  },
+  "homepage": "https://github.com/dmitrynikitsenko/webpack-setting#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.1.0",
+    "cross-env": "^7.0.2",
+    "css-loader": "^4.2.2",
+    "html-webpack-plugin": "^4.4.1",
+    "mini-css-extract-plugin": "^0.11.0",
+    "sass": "^1.26.10",
+    "sass-loader": "^10.0.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.11.5"
+  }
+}

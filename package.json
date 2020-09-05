@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dmitrynikitsenko/webpack-setting.git"
+    "url": "git+https://github.com/dmitrynikitsenko/webpack-settings.git"
   },
   "keywords": [
     "webpack",
